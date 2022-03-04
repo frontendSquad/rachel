@@ -1,0 +1,63 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Naskh Arabic', serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Naskh Arabic', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.theme-primary-text {
+    color: #12B8BE;
+}
+
+.theme-secondary-text {
+    color: #4B34E8;
+}
+
+.bg-theme-primary {
+    background-color: #12B8BE;
+}
+
+.form-control {
+    height: calc(1.5em + 0.75rem + 14px);
+}
+
+.rightColumn {
+    background: url(../images/bgshape.png) center/122% 100% no-repeat;
+}
+
+.leftColumn {
+    background: url(../images/bgImage.png) center/100% 100% no-repeat;
+}
+.h-100vh {
+    height: 100vh;;
+}
+.fa-20 {
+    font-size: 20px;
+}
+
+.form-control:focus {
+    color: #fff;
+    background-color: #12b8be;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.right-icon {
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6852fb;
+    cursor: pointer;
+}
+
+.contentModal i {
+    font-size: 5rem;
+}
