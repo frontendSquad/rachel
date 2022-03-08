@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
@@ -13,5 +12,4 @@
     <link rel="stylesheet" href="../css/style.css" type="text/css">
     
 </head>
-
 <body>

@@ -10,7 +10,7 @@ include('../layout/header.php');
                     <div class="loginContent px-md-5">
                         <div class="logo">
                             <figure>
-                                <a href="#"><img src="./images/logo.png" alt="logo" class="mw-100"></a>
+                                <a href="#"><img src="../images/logo.png" alt="logo" class="mw-100"></a>
                             </figure>
                         </div>
                         <div class="titleBox">
@@ -39,7 +39,7 @@ include('../layout/header.php');
             </div>
             <div class="col-md-6 d-flex justify-content-center align-items-md-end align-items-center rightColumn">
                 <figure class="w-75 mb-0">
-                    <a href="#"><img src="./images/girl.png" alt="Banner" class="mw-100"></a>
+                    <a href="#"><img src="../images/girl.png" alt="Banner" class="mw-100"></a>
                 </figure>
             </div>
         </div>
