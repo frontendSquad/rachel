@@ -40,3 +40,29 @@ sideToggle.addEventListener('click', function() {
     getToggle.classList.toggle('show');
 })
 
+var sideToggles = document.body.querySelector('#notification');
+var getToggles =  document.querySelector('.dropdown-notifcation');
+sideToggles.addEventListener('click', function() {
+    getToggles.classList.toggle('show');
+})
+
+
+jQuery('.edit').click(function(){
+    jQuery('#edit').removeClass('text-right disabled border-0 px-0');
+    jQuery('#edits').removeClass('text-right disabled border-0 px-0');
+    jQuery(this).attr('disabled', true);
+    jQuery('#edit').addClass('text-center');
+    jQuery('#edits').addClass('text-center');
+    jQuery(this).hide();
+    jQuery('.update').show();
+});
+
+jQuery('.update').click(function(){
+    jQuery('#edit').addClass('text-right disabled border-0 px-0');
+    jQuery('#edits').addClass('text-right disabled border-0 px-0');
+    jQuery('#edit').removeClass('text-center');
+    jQuery('#edits').removeClass('text-center');
+    jQuery(this).attr('disabled', false);
+    jQuery(this).hide();
+    jQuery('.edit').show();
+});
