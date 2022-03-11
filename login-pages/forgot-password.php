@@ -5,7 +5,7 @@ include('../layout/header.php');
 <section class="login h-100vh align-items-center">
     <div class="container-fluid h-100">
         <div class="row h-100">
-            <div class="col-md-6 leftColumn d-flex align-items-center">
+            <div class="col-xl-6 leftColumn d-flex align-items-center">
                 <div class="loginForm col-md-10">
                     <div class="loginContent px-md-5">
                         <div class="logo">
@@ -34,7 +34,7 @@ include('../layout/header.php');
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 d-flex justify-content-center align-items-md-end align-items-center rightColumn">
+            <div class="col-xl-6 d-flex justify-content-center align-items-md-end align-items-center rightColumn">
                 <figure class="w-75 mb-0">
                     <a href="#"><img src="../images/girl.png" alt="Banner" class="mw-100"></a>
                 </figure>

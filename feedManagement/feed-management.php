@@ -5,9 +5,9 @@ include('../layout/topBar.php');
     <div class="titleBox my-5">
         <h3 class="mb-0 achivpFont mb-0 font-weight-bold">Feed Management</h3>
     </div>
-    <div class="row shadow p-5 rounded-15 my-3">
+    <div class="row shadow p-sm-5 p-3 justify-content-between rounded-15 my-3">
         <!-- <h4 class="font-weight-300">Filters</h4> -->
-        <div class="col-md-3">
+        <div class="col-xl-3 col-md-6 mb-xl-0 mb-3">
             <select class="form-select form-select-sm pr-5 py-2 h-100" aria-label=".form-select-sm example">
                 <option selected>Select Subjects</option>
                 <option value="1">Math</option>
@@ -16,15 +16,15 @@ include('../layout/topBar.php');
                 <option value="4">Urdu</option>
             </select>
         </div>
-        <div class="col-md-3">
+        <div class="col-xl-3 col-md-6 mb-xl-0 mb-3">
             <select class="form-select form-select-sm pr-5 py-2 h-100" aria-label=".form-select-sm example">
-                <option selected>Level</option>
+                <option selected>Select Level</option>
                 <option value="1">Option 01</option>
                 <option value="2">Option 02</option>
                 <option value="3">Option 03</option>
             </select>
         </div>
-        <div class="col-md-3">
+        <!-- <div class="col-md-3">
             <select class="form-select form-select-sm pr-5 py-2 h-100" aria-label=".form-select-sm example">
                 <option selected>Select Type</option>
                 <option value="1">Teachers</option>
@@ -38,7 +38,7 @@ include('../layout/topBar.php');
                 <option value="1">Answered</option>
                 <option value="3">Unclaimed</option>
             </select>
-        </div>
+        </div> -->
         <div class="d-flex flex-wrap justify-content-center gap-15 mt-5">
             <p><a href="#" class="btn bg-theme-primary text-white px-4" role="button" data-bs-toggle="button" aria-pressed="true">Filter</a></p>
             <p><a class="btn bg-theme-primary-outline text-white px-4" aria-disabled="true" role="button" data-bs-toggle="button">Reset</a></p>
@@ -50,7 +50,7 @@ include('../layout/topBar.php');
         <h3 class="mb-0 achivpFont mb-0 font-weight-bold">Recent Posted Questions</h3>
     </div>
     <div class="row shadow py-5 rounded-15 my-5 justify-content-between align-items-end postion-relative">
-        <div class="col-md-7">
+        <div class="col-xl-7 col-md-12">
             <div class="contentBox pl-md-4">
                 <h3 class="h4 font-weight-light">Question:</h3>
                 <p class="achivpFont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida ??</p>
@@ -78,19 +78,19 @@ include('../layout/topBar.php');
                 </div>
             </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-xl-2 col-md-5">
             <div class="badgeRight">
                 <span class="text-white">Claimed</span>
             </div>
             <p>Amount: <span class="theme-primary-text">$00.00</span></p>
-            <p><a href="#" class="btn bg-theme-primary text-white px-4" role="button" data-toggle="button" aria-pressed="true">View Details</a></p>
+            <p><a href="feed-management-details.php" class="btn bg-theme-primary text-white px-4" role="button" data-toggle="button" aria-pressed="true">View Details</a></p>
         </div>
     </div>
 
     <!-- sessiom -->
 
     <div class="row shadow py-5 rounded-15 my-5 justify-content-between align-items-end postion-relative">
-        <div class="col-md-7">
+        <div class="col-xl-7 col-md-12">
             <div class="contentBox pl-md-4">
                 <h3 class="h4 font-weight-light">Question:</h3>
                 <p class="achivpFont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida ??</p>
@@ -118,19 +118,19 @@ include('../layout/topBar.php');
                 </div>
             </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-xl-2 col-md-5">
             <div class="badgeRight bg-black">
                 <span class="text-white">Unclaimed</span>
             </div>
             <p>Amount: <span class="theme-primary-text">$00.00</span></p>
-            <p><a href="#" class="btn bg-theme-primary text-white px-4" role="button" data-toggle="button" aria-pressed="true">View Details</a></p>
+            <p><a href="feed-management-details.php" class="btn bg-theme-primary text-white px-4" role="button" data-toggle="button" aria-pressed="true">View Details</a></p>
         </div>
     </div>
 
     <!-- sessiom -->
 
     <div class="row shadow py-5 rounded-15 my-5 justify-content-between align-items-end postion-relative">
-        <div class="col-md-7">
+        <div class="col-xl-7 col-md-12">
             <div class="contentBox pl-md-4">
                 <h3 class="h4 font-weight-light">Question:</h3>
                 <p class="achivpFont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida ??</p>
@@ -158,19 +158,19 @@ include('../layout/topBar.php');
                 </div>
             </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-xl-2 col-md-5">
             <div class="badgeRight">
                 <span class="text-white">Claimed</span>
             </div>
             <p>Amount: <span class="theme-primary-text">$00.00</span></p>
-            <p><a href="#" class="btn bg-theme-primary text-white px-4" role="button" data-toggle="button" aria-pressed="true">View Details</a></p>
+            <p><a href="feed-management-details.php" class="btn bg-theme-primary text-white px-4" role="button" data-toggle="button" aria-pressed="true">View Details</a></p>
         </div>
     </div>
 
     <!-- sessiom -->
 
     <div class="row shadow py-5 rounded-15 my-5 justify-content-between align-items-end postion-relative">
-        <div class="col-md-7">
+        <div class="col-xl-7 col-md-12">
             <div class="contentBox pl-md-4">
                 <h3 class="h4 font-weight-light">Question:</h3>
                 <p class="achivpFont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida ??</p>
@@ -198,16 +198,16 @@ include('../layout/topBar.php');
                 </div>
             </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-xl-2 col-md-5">
             <div class="badgeRight bg-black">
                 <span class="text-white">Unclaimed</span>
             </div>
             <p>Amount: <span class="theme-primary-text">$00.00</span></p>
-            <p><a href="#" class="btn bg-theme-primary text-white px-4" role="button" data-toggle="button" aria-pressed="true">View Details</a></p>
+            <p><a href="feed-management-details.php" class="btn bg-theme-primary text-white px-4" role="button" data-toggle="button" aria-pressed="true">View Details</a></p>
         </div>
     </div>
     <div class="viewAllBtn">
-        <p><a href="#" class="btn bg-theme-primary text-white px-4" role="button" data-toggle="button" aria-pressed="true">View All</a></p>
+        <p><a href="feed-management-details.php" class="btn bg-theme-primary text-white px-4" role="button" data-toggle="button" aria-pressed="true">View All</a></p>
     </div>
 </div>
 

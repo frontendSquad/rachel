@@ -5,7 +5,7 @@ include('../layout/topBar.php');
     <div class="titleBox my-3">
         <h3 class="mb-0 achivpFont mb-0 font-weight-bold">Subjects  Management - Create Subject</h3>
     </div>
-    <div class="row shadow p-5 rounded-15 my-4">
+    <div class="row shadow p-sm-5 p-3 rounded-15 my-4">
         <div class="col-md-8">
             <div class="d-flex flex-wrap align-items-center my-3">
                 <div class="col-md-6">
@@ -29,14 +29,14 @@ include('../layout/topBar.php');
                 </div>
             </div>
         </div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-4 text-sm-right text-center">
             <p><a href="#" class="btn bg-theme-primary text-white px-4" role="button" data-bs-toggle="button" aria-pressed="true" data-toggle="modal" data-target="#approved">Create Subject</a></p>
         </div>
     </div>
     <div class="titleBox my-3">
         <h3 class="mb-0 achivpFont mb-0 font-weight-bold">Subject Variations</h3>
     </div>
-    <div class="row shadow p-5 rounded-15 my-4">
+    <div class="row shadow p-sm-5 p-3 rounded-15 my-4">
         <div class="col-md-8">
             <div class="d-flex flex-wrap align-items-center my-3">
                 <div class="col-md-6">
@@ -64,7 +64,7 @@ include('../layout/topBar.php');
                 </div>
             </div>
         </div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-4 text-sm-right text-center">
             <p><a href="#" class="btn bg-theme-primary text-white px-4" role="button" data-bs-toggle="button" aria-pressed="true">Add Another Level</a></p>
         </div>
     </div>

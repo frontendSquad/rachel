@@ -44,10 +44,10 @@ include('../layout/topBar.php');
     </div>
 
     <!-- subject -->
-    <div class="titleBox my-5">
+    <div class="titleBox my-sm-5 my-3">
         <h3 class="mb-0 achivpFont mb-0 font-weight-bold">Preferred Subjects</h3>
     </div>
-    <div class="d-flex shadow p-5 rounded-15 my-3 justify-content-center flex-wrap subjects gap-15">
+    <div class="d-flex shadow p-sm-5 p-2 rounded-15 my-3 justify-content-center flex-wrap subjects gap-15">
         <div class="align-items-center d-flex justify-content-center flex-grow-1 rounded-3 bg-theme-primary">
             <h3 class="font-weight-light text-white">Math</h3>
         </div>
@@ -67,12 +67,12 @@ include('../layout/topBar.php');
 
     <!-- post -->
 
-    <div class="titleBox my-5">
+    <div class="titleBox my-sm-5 my-3">
         <h3 class="mb-0 achivpFont mb-0 font-weight-bold">Recent Posts</h3>
     </div>
     <div class="row shadow p-5 rounded-15 my-3">
         <!-- <h4 class="font-weight-300">Filters</h4> -->
-        <div class="col-md-3">
+        <div class="col-xl-3 col-md-6 mb-xl-0 mb-3">
             <select class="form-select form-select-sm pr-5 py-2 h-100" aria-label=".form-select-sm example">
                 <option selected>Select Subjects</option>
                 <option value="1">Math</option>
@@ -81,7 +81,7 @@ include('../layout/topBar.php');
                 <option value="4">Urdu</option>
             </select>
         </div>
-        <div class="col-md-3">
+        <div class="col-xl-3 col-md-6 mb-xl-0 mb-3">
             <select class="form-select form-select-sm pr-5 py-2 h-100" aria-label=".form-select-sm example">
                 <option selected>Level</option>
                 <option value="1">Option 01</option>
@@ -89,7 +89,7 @@ include('../layout/topBar.php');
                 <option value="3">Option 03</option>
             </select>
         </div>
-        <div class="col-md-3">
+        <div class="col-xl-3 col-md-6 mb-xl-0 mb-3">
             <select class="form-select form-select-sm pr-5 py-2 h-100" aria-label=".form-select-sm example">
                 <option selected>Select Type</option>
                 <option value="1">Teachers</option>
@@ -97,7 +97,7 @@ include('../layout/topBar.php');
                 <option value="3">Questions</option>
             </select>
         </div>
-        <div class="col-md-3">
+        <div class="col-xl-3 col-md-6 mb-xl-0 mb-3">
             <select class="form-select form-select-sm pr-5 py-2 h-100" aria-label=".form-select-sm example">
                 <option selected>Sort By Status</option>
                 <option value="1">Answered</option>

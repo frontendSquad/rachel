@@ -8,8 +8,8 @@ include('../layout/topBar.php');
         </div>
     </div>
 </div>
-<div class="row shadow p-5 rounded-15 mb-5">
-    <div class="col-md-4">
+<div class="row shadow p-sm-5 p-2 rounded-15 mb-5">
+    <div class="col-xl-4 col-md-8">
         <div class="shadow p-3 rounded-15 mb-3 mb-md-0">
             <h5 class="font-weight-bold achivpFont mb-0">No. Students</h5>
             <div class="d-flex align-items-center flex-wrap justify-content-between">
@@ -24,7 +24,7 @@ include('../layout/topBar.php');
             </div>
         </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-xl-4 col-md-8">
         <div class="shadow p-3 rounded-15 mb-3 mb-md-0">
             <h5 class="font-weight-bold achivpFont mb-0">No. Questions Request</h5>
             <div class="d-flex align-items-center flex-wrap justify-content-between">
@@ -39,7 +39,7 @@ include('../layout/topBar.php');
             </div>
         </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-xl-4 col-md-8">
         <div class="shadow p-3 rounded-15 mb-3 mb-md-0">
             <h5 class="font-weight-bold achivpFont mb-0">No.Teachers</h5>
             <div class="d-flex align-items-center flex-wrap justify-content-between">
@@ -58,11 +58,11 @@ include('../layout/topBar.php');
 
 <!-- No. Students Registered -->
 
-<div class="row position-relative">
+<div class="row px-3 px-sm-0 position-relative">
     <div class="col rotateText">
         <h6 class="mb-0 achivpFont">New Shippers Registered</h6>
     </div>
-    <div class="col-md-12 shadow p-5 rounded-15">
+    <div class="col-md-12 shadow p-sm-5 p-3 rounded-15">
         <div class="d-flex align-items-center flex-wrap justify-content-between">
             <div class="graphTitle flex-shrink-0">
                 <h6 class="mb-0 achivpFont">No. Students Registered</h6>
@@ -83,17 +83,17 @@ include('../layout/topBar.php');
         </div>
     </div>
     <div class="col-md-12 text-center my-4">
-        <p class="py-3 mb-0">Months</p>
+        <p class="py-sm-3 py-0 mb-0">Months</p>
     </div>
 </div>
 
 <!-- No. of Requests -->
 
-<div class="row position-relative">
+<div class="row px-3 px-sm-0 position-relative">
     <div class="col rotateText">
         <h6 class="mb-0 achivpFont">New Shippers Registered</h6>
     </div>
-    <div class="col-md-12 shadow p-5 rounded-15">
+    <div class="col-md-12 shadow p-sm-5 p-3 rounded-15">
         <div class="d-flex align-items-center flex-wrap justify-content-between">
             <div class="graphTitle flex-shrink-0">
                 <h6 class="mb-0 achivpFont">No. of Requests</h6>
@@ -120,17 +120,17 @@ include('../layout/topBar.php');
         </div>
     </div>
     <div class="col-md-12 text-center my-4">
-        <p class="py-3 mb-0">Months</p>
+        <p class="py-sm-3 py-0 mb-0">Months</p>
     </div>
 </div>
 
 <!-- No. Students Registered -->
 
-<div class="row position-relative">
+<div class="row px-3 px-sm-0 position-relative">
     <div class="col rotateText">
         <h6 class="mb-0 achivpFont">New Shippers Registered</h6>
     </div>
-    <div class="col-md-12 shadow p-5 rounded-15">
+    <div class="col-md-12 shadow p-sm-5 p-3 rounded-15">
         <div class="d-flex align-items-center flex-wrap justify-content-between">
             <div class="graphTitle flex-shrink-0">
                 <h6 class="mb-0 achivpFont">No. Students Registered</h6>
@@ -157,7 +157,7 @@ include('../layout/topBar.php');
         </div>
     </div>
     <div class="col-md-12 text-center my-4">
-        <p class="py-3 mb-0">Months</p>
+        <p class="py-sm-3 py-0 mb-0">Months</p>
     </div>
 </div>
 

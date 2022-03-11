@@ -12,7 +12,7 @@ include('../layout/topBar.php');
             <option value="3">March</option>
         </select>
     </div>
-    <div class="row shadow p-5 rounded-15">
+    <div class="row shadow p-sm-5 p-2 rounded-15">
         <div class="col-md-12">
             <div class="d-flex gap-15 py-4">
                 <div class="notificationIcon flex-shrink-0">

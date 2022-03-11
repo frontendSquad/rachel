@@ -5,7 +5,7 @@ include('../layout/header.php');
 <section class="login h-100vh align-items-center">
     <div class="container-fluid h-100">
         <div class="row h-100">
-            <div class="col-md-6 leftColumn d-flex align-items-center">
+            <div class="col-xl-6 leftColumn d-flex align-items-center">
                 <div class="loginForm col-md-10">
                     <div class="loginContent px-md-5">
                         <div class="logo">
@@ -36,13 +36,13 @@ include('../layout/header.php');
                                 <input type="button" value="Update" class="form-control text-white bg-theme-primary" data-toggle="modal" data-target="#passwordReset">
                             </div>
                             <div class="backBtn text-center">
-                                <p><a href="./verification-code.php" class="text-dark d-flex justify-content-center align-items-center"><i class="bi bi-arrow-left pr-2 fa-20"></i>Back to Login</a></p>
+                                <p><a href="./login.php" class="text-dark d-flex justify-content-center align-items-center"><i class="bi bi-arrow-left pr-2 fa-20"></i>Back to Login</a></p>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 d-flex justify-content-center align-items-md-end align-items-center rightColumn">
+            <div class="col-xl-6 d-flex justify-content-center align-items-md-end align-items-center rightColumn">
                 <figure class="w-75 mb-0">
                     <a href="#"><img src="../images/girl.png" alt="Banner" class="mw-100"></a>
                 </figure>

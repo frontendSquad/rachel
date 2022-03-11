@@ -5832,11 +5832,8 @@ fieldset:disabled .btn {
 .list-group-item.active {
   z-index         : 2;
   color           : #fff;
-  background-color: #12b8be;
-  border-color    : #12b8be;
-}
-.list-group-item.active i {
-  color: white;
+  background-color: #0d6efd;
+  border-color    : #0d6efd;
 }
 
 .list-group-item+.list-group-item {
@@ -12266,5 +12263,279 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
   body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: -15rem;
+  }
+}
+
+
+/* main css for Saif DADA */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Naskh Arabic', serif;
+  font-family: 'Poppins', sans-serif;
+  font-size  : 16px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Naskh Arabic', serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.theme-primary-text {
+  color: #12B8BE;
+}
+
+.theme-secondary-text {
+  color: #4B34E8;
+}
+
+.bg-theme-primary {
+  background-color: #12B8BE;
+}
+
+.form-control {
+  height: calc(1.5em + 0.75rem + 14px);
+}
+
+.rightColumn {
+  background: url(../images/bgshape.png) center/122% 100% no-repeat;
+}
+
+.leftColumn {
+  background: url(../images/bgImage.png) center/100% 100% no-repeat;
+}
+
+.h-100vh {
+  height: 100vh;
+  ;
+}
+
+.fa-20 {
+  font-size: 20px;
+}
+
+.form-control:focus {
+  color           : #000;
+  background-color: #f8f9fa;
+  border-color    : #fff;
+  outline         : 0;
+  box-shadow      : none;
+}
+
+.right-icon {
+  right    : 10px;
+  top      : 50%;
+  transform: translateY(-50%);
+  color    : #6852fb;
+  cursor   : pointer;
+}
+
+.contentModal i {
+  font-size: 5rem;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,800;1,900&family=Noto+Naskh+Arabic&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,200;1,300&display=swap');
+
+.achivpFont {
+  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Noto Naskh Arabic', serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.border-bottom-radius {
+  border-radius: 0 0 20px 0;
+}
+
+
+.iconBasboard img {
+  object-fit: contain;
+  width     : 55px;
+  height    : 75px;
+}
+
+.rounded-15 {
+  border-radius: 15px;
+}
+
+.rotateText {
+  transform: rotateZ(-90deg);
+  position : absolute;
+  right    : 51%;
+  top      : -45%;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.bg-theme-primary-outline {
+  border: 1px solid #12B8BE;
+  background: #fff;
+  color: #12B8BE !important;
+
+}
+
+.avatarInfo .dropdown-menu {
+  min-width: 15rem;
+}
+
+.notification {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.count {
+  text-decoration: none;
+  position: absolute;
+  background-color: red;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 11px;
+  right: -2px;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+}
+
+.dropdown-notifcation {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  padding: 0.5rem 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  left: -35px;
+  width: 100%;
+}
+
+.dropdown-notifcation.show {
+  display: block;
+}
+
+.notificationContent {
+  font-size: 13px;
+}
+
+li.page-item:first-child a {
+  background-color: #12B8BE;
+  color: #fff;
+}
+
+li.page-item:last-child a {
+  background-color: #333333;
+  color: #fff;
+}
+
+
+li.page-item a {
+  color: #333333;
+}
+
+
+.table td, .table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: none;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 0;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 12px;
+}
+
+
+tbody td {
+  border: none;
+  padding: 15px 0 !important;
+  vertical-align: middle !important;
+}
+
+tbody tr {
+  box-shadow: 2px 0px 6px 0px #ebe5e5;
+  border-radius: 14px;
+}
+
+.btn-check:focus+.btn, .form-select:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.subjects > div {
+  min-height: 120px;
+}
+
+.bg-yellow {
+  background-color: #FFD60A;
+}
+
+.bg-volient {
+  background-color: #FF51D6;
+}
+
+.bg-green {
+  background-color: #12BEAC;
+}
+
+.badgeRight {
+  background-color: #12b8be;
+  text-align: center;
+  position: absolute;
+  bottom: 170%;
+  font-size: 14px;
+  padding: 5px 15px;
+  border-radius: 10px 0px 0px 10px;
+  right: 0;
+}
+.qualificationTitle {
+  background-color: rgb(18 184 190 / 31%);
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #12b8be;
+}
+
+.comission-section li a {
+  color: #000;
+}
+
+
+
+
+@media(min-width: 1170px) {
+  div#sidebar-wrapper {
+    position: fixed;
+    width   : 15%;
+  }
+
+  div#page-content-wrapper {
+    width: 85%;
+    margin-left: 15%;
   }
 }

@@ -1,3 +1,18 @@
+// Navigation Menu 
+$(window).on('load', function() {
+    var currentUrl = window.location.href.substr(window.location.href.lastIndexOf("/") + 1);
+    $('.list-group-flush a').each(function() {
+        var hrefVal = $(this).attr('href');
+        if (hrefVal.split('/')[3] == currentUrl) {
+            $(this).removeClass('active');
+            $(this).addClass('active')
+            $('ul.menu li.first').removeClass('active');
+        }
+    });
+
+});
+
+
 var eyeBtn = Array.from(document.querySelectorAll('.passDisplay'));
     eyeBtn.forEach(e => {
         e.addEventListener('click', function () {
@@ -65,4 +80,30 @@ jQuery('.update').click(function(){
     jQuery(this).attr('disabled', false);
     jQuery(this).hide();
     jQuery('.edit').show();
+});
+
+function readURL(input) {
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            $('#imagePreview').css('background-image', 'url('+e.target.result +')');
+            $('#imagePreview').hide();
+            $('#imagePreview').fadeIn(650);
+        }
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+$("#imageUpload").change(function() {
+    readURL(this);
+});
+
+  // toggle password
+$(".toggle-password").click(function() {
+    $(this).toggleClass("bi bi-eye");
+    input = $(this).parent().find("input");
+    if (input.attr("type") == "password") {
+        input.attr("type", "text");
+    } else {
+        input.attr("type", "password");
+    }
 });
