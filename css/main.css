@@ -21,6 +21,10 @@ h6 {
   color: #12B8BE;
 }
 
+.gap-50 {
+  gap: 50px;
+}
+
 .theme-secondary-text {
   color: #4B34E8;
 }
@@ -34,11 +38,11 @@ h6 {
 }
 
 .rightColumn {
-  background: url(../images/bgshape.png) center/122% 100% no-repeat;
+  background: url(../corporate/images/bgshape.png) center/122% 100% no-repeat;
 }
 
 .leftColumn {
-  background: url(../images/bgImage.png) center/100% 100% no-repeat;
+  background: url(../corporate/images/bgImage.png) center/100% 100% no-repeat;
 }
 
 .h-100vh {
@@ -365,6 +369,184 @@ span.navbar-toggler-icon i {
   top      : -5px;
 }
 
+.bg-theme-green {
+  background-color: #12BE3A !important;
+}
+
+.bg-theme-red {
+  background-color: #FF0909 !important;
+}
+
+.paymentBox {
+  background-color: #D6FFFF;
+  padding: 4px 16px;
+  border-radius: 10px;
+}
+
+.border-item:not(:last-child) {
+  border-bottom: 1px solid #00000052;
+  border-radius: 0;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+header img {
+  width: 100px;
+}
+
+.main {
+  background-image: url(../corporate/images/banner.png);
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 220px 0 0;
+  color: #fff;
+  min-height: 530px;
+}
+
+header a {
+  color: #fff !important;
+}
+
+.home h3:after {
+  border-bottom: 5px solid #12b8be;
+  content: '';
+  width: 80px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -15px;
+  margin: auto;
+}
+
+.home h3 {
+  position: relative;
+}
+
+.about {
+  background-color: #ECF6FF;
+}
+
+.price-tag {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-tag p {
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.plans-box {
+  border-radius: 50px;
+  margin: 50px 0;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+}
+
+
+.plans-box:hover {
+  transform: scale(1.1);
+  transition: .5s;
+  background-color: #12b8be;
+}
+
+.plans-box:hover h4, .plans-box:hover h5, .plans-box:hover p, .plans-box:hover .text-plan  {
+  color: #fff !important;
+}
+
+.plans-box:hover .price-tag, .plans-box:hover a, .plans-box:hover .price {
+  background-color: #fff;
+  color: #12b8be !important;
+}
+
+.text-plan {
+  color: #666666;
+}
+
+section.plans {
+  background-color: #F8F8F8;
+}
+
+.video-section {
+  background-image: url(../corporate/images/video.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  min-height: 450px;
+  background-attachment: fixed;
+}
+
+.playBtn a {
+  background-color: #34a0ac;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 50px;
+  color: #fff;
+  box-shadow: 0px 0px 0px 9px rgb(18 184 190 / 48%);
+  border: 1px solid #12b8be;
+}
+
+a.navbar-brand {
+  background-color: #fff;
+  border-radius: 0 0 30px 30px;
+}
+
+.image-card img {
+  border-radius: 30px;
+  height: 260px;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+footer h3:after {
+  border-bottom: 4px solid #12b8be;
+  content: '';
+  width: 50px;
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 20px;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
+
+footer .socailIcons a {
+  color: #fff;
+  padding: 0 6px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
 @media(min-width: 1170px) {
   div#sidebar-wrapper {
     position: fixed;
@@ -407,6 +589,9 @@ span.navbar-toggler-icon i {
 }
 
 @media only screen and (max-width: 767px) {
+  .gap-50 {
+    gap: 10px;
+  }
   #page-content-wrapper {
     width: 100vw;
   }
