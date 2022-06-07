@@ -77,9 +77,7 @@ include('../layout/topBar.php');
             </div>
         </div>
         <div class="graphBox py-4">
-            <figure class="mb-0">
-                <img src="../images/graph.png" class="mw-100" alt="No. Students Registered">
-            </figure>
+            <canvas id="myChart" width="400" height="200"></canvas>
         </div>
     </div>
     <div class="col-md-12 text-center my-4">
@@ -114,9 +112,7 @@ include('../layout/topBar.php');
             </div>
         </div>
         <div class="graphBox py-4">
-            <figure class="mb-0">
-                <img src="../images/graph.png" class="mw-100" alt="No. Students Registered">
-            </figure>
+            <canvas id="second" width="400" height="200"></canvas>
         </div>
     </div>
     <div class="col-md-12 text-center my-4">
@@ -151,16 +147,117 @@ include('../layout/topBar.php');
             </div>
         </div>
         <div class="graphBox py-4">
-            <figure class="mb-0">
-                <img src="../images/graph.png" class="mw-100" alt="No. Students Registered">
-            </figure>
+            <canvas id="third" width="400" height="200"></canvas>
         </div>
     </div>
     <div class="col-md-12 text-center my-4">
         <p class="py-sm-3 py-0 mb-0">Months</p>
     </div>
 </div>
+<script>
+    const ctx = document.getElementById('myChart').getContext('2d');
+    const myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange', 'Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+                label: '# of Votes',
+                data: [1, 3, 2, 3, 2, 3, 1, 3, 2, 3, 2, 3],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)'
+                ]
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
 
+    // second chart
+
+    const abc = document.getElementById('second').getContext('2d');
+    const myCharts = new Chart(abc, {
+        type: 'bar',
+        data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange', 'Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+                label: '# of Votes',
+                data: [1, 3, 2, 3, 2, 3, 1, 3, 2, 3, 2, 3],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)'
+                ]
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    // second chart
+
+    const def = document.getElementById('third').getContext('2d');
+    const thirdChart = new Chart(def, {
+        type: 'bar',
+        data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange', 'Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+                label: '# of Votes',
+                data: [1, 3, 2, 3, 2, 3, 1, 3, 2, 3, 2, 3],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)'
+                ]
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
 <?php
 include('../layout/footer.php');
 ?>

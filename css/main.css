@@ -18,7 +18,7 @@ h6 {
 }
 
 .theme-primary-text {
-  color: #12B8BE;
+  color: #e13622;
 }
 
 .gap-50 {
@@ -30,7 +30,7 @@ h6 {
 }
 
 .bg-theme-primary {
-  background-color: #12B8BE;
+  background-color: #e13622;
 }
 
 .form-control {
@@ -110,6 +110,7 @@ h6 {
   object-fit: contain;
   width     : 55px;
   height    : 75px;
+  filter: invert(19%) sepia(100%) saturate(4268%) hue-rotate(85deg) brightness(104%) contrast(77%);
 }
 
 .rounded-15 {
@@ -128,9 +129,9 @@ h6 {
 }
 
 .bg-theme-primary-outline {
-  border    : 1px solid #12B8BE;
+  border    : 1px solid #e13622;
   background: #fff;
-  color     : #12B8BE !important;
+  color     : #e13622 !important;
 
 }
 
@@ -183,7 +184,7 @@ h6 {
 }
 
 li.page-item:first-child a {
-  background-color: #12B8BE;
+  background-color: #e13622;
   color           : #fff;
 }
 
@@ -250,7 +251,7 @@ tbody tr {
 }
 
 .badgeRight {
-  background-color: #12b8be;
+  background-color: #e13622;
   text-align      : center;
   position        : absolute;
   bottom          : 170%;
@@ -270,7 +271,7 @@ tbody tr {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   color           : #fff;
-  background-color: #12b8be;
+  background-color: #e13622;
 }
 
 .comission-section li a {
@@ -326,7 +327,7 @@ tbody tr {
 .avatar-upload .avatar-edit input+label:after {
   content    : "\F220";
   font-family: 'bootstrap-icons';
-  color      : #12B8BE;
+  color      : #e13622;
   position   : absolute;
   top        : 5px;
   left       : 0;
@@ -378,7 +379,7 @@ span.navbar-toggler-icon i {
 }
 
 .paymentBox {
-  background-color: #D6FFFF;
+  background-color: #e1362236;
   padding: 4px 16px;
   border-radius: 10px;
 }
@@ -412,7 +413,7 @@ header a {
 }
 
 .home h3:after {
-  border-bottom: 5px solid #12b8be;
+  border-bottom: 5px solid #e13622;
   content: '';
   width: 80px;
   position: absolute;
@@ -456,7 +457,7 @@ header a {
 .plans-box:hover {
   transform: scale(1.1);
   transition: .5s;
-  background-color: #12b8be;
+  background-color: #e13622;
 }
 
 .plans-box:hover h4, .plans-box:hover h5, .plans-box:hover p, .plans-box:hover .text-plan  {
@@ -465,7 +466,7 @@ header a {
 
 .plans-box:hover .price-tag, .plans-box:hover a, .plans-box:hover .price {
   background-color: #fff;
-  color: #12b8be !important;
+  color: #e13622 !important;
 }
 
 .text-plan {
@@ -496,7 +497,7 @@ section.plans {
   border-radius: 50px;
   color: #fff;
   box-shadow: 0px 0px 0px 9px rgb(18 184 190 / 48%);
-  border: 1px solid #12b8be;
+  border: 1px solid #e13622;
 }
 
 a.navbar-brand {
@@ -513,7 +514,7 @@ a.navbar-brand {
 
 
 footer h3:after {
-  border-bottom: 4px solid #12b8be;
+  border-bottom: 4px solid #e13622;
   content: '';
   width: 50px;
   position: absolute;
@@ -540,12 +541,10 @@ footer .socailIcons a {
   font-size: 20px;
 }
 
-
-
-
-
-
-
+input::-webkit-inner-spin-button {
+  appearance: none;
+  -webkit-appearance: none;
+}
 
 @media(min-width: 1170px) {
   div#sidebar-wrapper {

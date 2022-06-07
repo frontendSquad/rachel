@@ -5832,8 +5832,8 @@ fieldset:disabled .btn {
 .list-group-item.active {
   z-index         : 2;
   color           : #fff;
-  background-color: #12b8be;
-  border-color    : #12b8be;
+  background-color: #1f895d;
+  border-color    : #54b690;
 }
 .list-group-item.active i {
   color: white;
